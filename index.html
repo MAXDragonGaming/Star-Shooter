@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>star shooter</title>
+	<style>
+		html {
+			height: 100%;
+		}
+		body {
+			margin: 0;
+			box-sizing: border-box;
+			background-color:black;
+			border: 75px black solid;
+			height: 100%;
+		}
+		.container {
+			text-align: center;
+		}
+
+		.customButton {
+			width: 300px;
+			background: none;
+			text-align: center;
+			cursor: pointer;
+			user-select: none;
+			font-size: 50px;
+			font-weight: bold;
+			color: white;
+			position: absolute;
+			top: 50%;
+			left: 42%;
+			}
+		.
+
+	</style>
+</head>
+<body>
+	<div class="container"> 
+		<div class="customButton" onclick="clickFunction()">start game?</div>
+	</div>
+	<script>
+		var points = 0;
+		function clickFunction(){
+			var button = document.querySelector(".customButton");
+			button.style.display = "none";
+			var body = document.body;
+			body.style.backgroundColor = "white";
+
+		}
+	</script>
+</body>
+</html>
